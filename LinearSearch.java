@@ -1,11 +1,10 @@
 public class LinearSearch{
     public static void main(String[] args) {
         int array[] = { 2, 3, 4, 10, 40 };
-        int target1 = 10;
-        int target2 = 70;
 
-        System.out.println(linearSearch(array, target1));
-        System.out.println(linearSearch(array, target2));
+        System.out.println(linearSearch(array, 2));
+        System.out.println(linearSearch(array, 40));
+        System.out.println(linearSearch(array, 70));
     }
 
     public static int linearSearch(int[] array,int target){
